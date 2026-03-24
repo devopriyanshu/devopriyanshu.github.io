@@ -1120,7 +1120,7 @@
         <a href="#about">About</a>
         <a href="#portfolio">Projects</a>
         <a href="#experience">XP</a>
-        <a href="#testimonials">Reviews</a>
+        <!-- <a href="#testimonials">Reviews</a> -->
         <a href="#articles">Blog</a>
       </ul>
       <button
@@ -1157,8 +1157,7 @@
             <span class="pill c">RAG</span><span class="pill p">LangChain</span>
             <span class="pill c">FastAPI</span><span class="pill p">AWS</span>
             <span class="pill c">Node.js</span
-            ><span class="pill p">Qdrant</span>
-            <span class="pill c">Gemini</span><span class="pill p">NestJS</span>
+            ><span class="pill p">React.js</span>
           </div>
           <div class="hero-btns fade-up d5">
             <button
@@ -1464,66 +1463,97 @@
           <h2 class="sec-title">Selected <span>Projects</span></h2>
           <div class="sec-line"></div>
         </div>
+
         <div class="port-grid">
+          <!-- PROJECT 1 -->
           <div class="port-card">
-            <div class="port-label">GenAI · Production</div>
-            <div class="port-name">RAG Knowledge Engine</div>
+            <div class="port-label">GenAI · RAG System</div>
+            <div class="port-name">YouTube Q&A Engine</div>
             <p class="port-desc">
-              Multi-source RAG pipeline with hybrid vector + keyword search,
-              re-ranking, and streaming responses. Deployed on AWS with
-              sub-200ms P95 latency.
+              Built a full-stack Chrome Extension enabling semantic Q&A over
+              YouTube videos using a RAG pipeline. Integrated transcript
+              ingestion, vector search, and LLM-based answer generation with
+              timestamp grounding.
             </p>
             <div class="port-stack">
-              <span class="pt c">LangChain</span><span class="pt p">Qdrant</span
-              ><span class="pt c">FastAPI</span
-              ><span class="pt p">AWS Lambda</span>
+              <span class="pt c">FastAPI</span>
+              <span class="pt p">LangChain</span>
+              <span class="pt c">Qdrant</span>
+              <span class="pt p">Gemini</span>
             </div>
-            <a class="port-link" href="#">View project →</a>
+            <a
+              class="port-link"
+              href="https://github.com/devopriyanshu/youtube-rag-chrome-extension"
+              >View project →</a
+            >
           </div>
+
+          <!-- PROJECT 2 -->
           <div class="port-card">
-            <div class="port-label">Agentic · LLM Orchestration</div>
-            <div class="port-name">Multi-Agent Task System</div>
+            <div class="port-label">Full Stack · Production</div>
+            <div class="port-name">Wellness Platform</div>
             <p class="port-desc">
-              Autonomous agent framework with planner, executor, and critic
-              roles. Uses tool calling, memory persistence, and eval loops for
-              reliability.
+              Production-ready platform for discovering wellness centers,
+              booking experts, and tracking health activities. Built with
+              scalable backend architecture, OAuth authentication, and optimized
+              PostgreSQL queries.
             </p>
             <div class="port-stack">
-              <span class="pt p">Gemini API</span
-              ><span class="pt c">LangGraph</span><span class="pt p">Redis</span
-              ><span class="pt c">PostgreSQL</span>
+              <span class="pt p">React</span>
+              <span class="pt c">Node.js</span>
+              <span class="pt p">PostgreSQL</span>
+              <span class="pt c">AWS</span>
             </div>
-            <a class="port-link" href="#">View project →</a>
+            <a class="port-link" href="https://www.mywellnest.app"
+              >View project →</a
+            >
           </div>
+
+          <!-- PROJECT 3 -->
           <div class="port-card">
-            <div class="port-label">Backend · Infra</div>
-            <div class="port-name">AI API Gateway</div>
+            <div class="port-label">AI · Voice Agents</div>
+            <div class="port-name">Matrimonial Voice Agent</div>
             <p class="port-desc">
-              Rate-limited, JWT-authenticated API gateway for LLM services.
-              Handles 10k+ req/min with async queue processing and Redis
-              caching.
+              Real-time AI voice agent for matrimonial platforms using Sarvam
+              STT/TTS with structured intent extraction. Designed low-latency
+              conversational pipeline with WebSockets, caching, and decision
+              engine.
             </p>
             <div class="port-stack">
-              <span class="pt c">NestJS</span><span class="pt p">Redis</span
-              ><span class="pt c">PostgreSQL</span
-              ><span class="pt p">Docker</span>
+              <span class="pt c">FastAPI</span>
+              <span class="pt p">GPT-4o-mini</span>
+              <span class="pt c">Redis</span>
+              <span class="pt p">PostgreSQL</span>
             </div>
-            <a class="port-link" href="#">View project →</a>
+            <a
+              class="port-link"
+              href="https://github.com/devopriyanshu/voice-agent"
+              >View project →</a
+            >
           </div>
+          <!-- PROJECT 4 -->
           <div class="port-card">
-            <div class="port-label">Full Stack · SaaS</div>
-            <div class="port-name">Document Intelligence Platform</div>
+            <div class="port-label">Full Stack · In Progress</div>
+            <div class="port-name">CGS — Common Ground Solutions</div>
             <p class="port-desc">
-              End-to-end document Q&A SaaS. PDF ingestion, chunking strategies,
-              semantic search, and a React dashboard with real-time streaming
-              responses.
+              India's green infrastructure and carbon credit lifecycle platform.
+              Multi-portal SPA architecture serving project developers,
+              corporate ESG teams, and FPOs — covering credit issuance,
+              retirement workflows, BRSR/GRI/CDP report generation, and
+              marketplace.
+              <!-- procurement. -->
             </p>
             <div class="port-stack">
-              <span class="pt p">Next.js</span><span class="pt c">FastAPI</span
-              ><span class="pt p">HuggingFace</span
-              ><span class="pt c">Qdrant</span>
+              <span class="pt p">React</span>
+              <span class="pt c">NestJS</span>
+              <span class="pt p">PostgreSQL</span>
+              <span class="pt c">TypeScript</span>
+              <span class="pt p">Kafka</span>
+              <span class="pt c">AWS</span>
             </div>
-            <a class="port-link" href="#">View project →</a>
+            <a class="port-link" href="https://commongroundsolutions.in"
+              >View project →</a
+            >
           </div>
         </div>
       </div>
@@ -1537,78 +1567,79 @@
           <h2 class="sec-title">Experience<span> Timeline</span></h2>
           <div class="sec-line"></div>
         </div>
+
         <div class="exp-timeline">
-          <div class="exp-item">
+          <!-- CURRENT -->
+          <!-- <div class="exp-item">
             <div class="exp-dot"></div>
-            <div class="exp-period">2024 — PRESENT</div>
-            <div class="exp-role">GenAI Engineer</div>
-            <div class="exp-company">// Freelance & Contract Projects</div>
+            <div class="exp-period">2025 — Present</div>
+            <div class="exp-role">GenAI & Full Stack Developer</div>
+            <div class="exp-company">// Personal & Advanced Projects</div>
             <ul class="exp-desc">
               <li>
-                Architecting RAG pipelines and agentic workflows for B2B clients
-                across fintech and edtech domains
+                Building RAG pipelines, voice agents, and AI-powered
+                applications using LLMs and vector databases
               </li>
               <li>
-                Deploying LLM-backed APIs on AWS with observability, tracing,
-                and eval dashboards
+                Designing scalable backend systems using FastAPI, Node.js, and
+                PostgreSQL
               </li>
               <li>
-                Consulting on LLM evaluation strategies, prompt engineering, and
-                model selection
+                Working on real-time systems with WebSockets, caching (Redis),
+                and low-latency architectures
+              </li>
+            </ul>
+          </div> -->
+
+          <!-- INTERNSHIP -->
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-period">Nov 2025 — Jan 2026</div>
+            <div class="exp-role">Full Stack Developer Intern</div>
+            <div class="exp-company">// Cufront Healthcare</div>
+            <ul class="exp-desc">
+              <li>
+                Built production-ready frontend features using React and
+                collaborated closely with backend teams
+              </li>
+              <li>
+                Implemented optimized search with filters and debouncing,
+                improving API efficiency and UX
+              </li>
+              <li>
+                Worked with REST APIs, data fetching strategies (React Query),
+                and basic backend integrations
               </li>
             </ul>
           </div>
-          <div class="exp-item">
-            <div
-              class="exp-dot"
-              style="
-                background: var(--p);
-                box-shadow: 0 0 10px rgba(255, 0, 170, 0.6);
-              "
-            ></div>
+
+          <!-- EARLY STAGE -->
+          <!-- <div class="exp-item">
+            <div class="exp-dot"></div>
             <div class="exp-period">2023 — 2024</div>
-            <div class="exp-role">Backend Developer</div>
-            <div class="exp-company">// Contract & Open Source</div>
-            <ul class="exp-desc">
-              <li>
-                Built REST and GraphQL APIs using FastAPI and NestJS with full
-                JWT authentication flows
-              </li>
-              <li>
-                Designed PostgreSQL schemas for multi-tenant SaaS platforms with
-                row-level security
-              </li>
-              <li>
-                Integrated CI/CD pipelines using GitHub Actions and Jenkins with
-                Docker containers
-              </li>
-            </ul>
-          </div>
-          <div class="exp-item">
-            <div class="exp-dot"></div>
-            <div class="exp-period">2022 — 2023</div>
             <div class="exp-role">Full Stack Developer</div>
-            <div class="exp-company">// Internship & Personal Projects</div>
+            <div class="exp-company">// Projects & Learning Phase</div>
             <ul class="exp-desc">
               <li>
-                Developed React/Next.js frontends with TailwindCSS and
-                TypeScript
+                Built end-to-end applications using React, Node.js, and
+                PostgreSQL
               </li>
               <li>
-                Built Node.js microservices with MongoDB and Redis for session
-                management
+                Learned system design fundamentals including authentication,
+                APIs, and database optimization
               </li>
               <li>
-                Contributed to open source tooling in the LangChain ecosystem
+                Explored DevOps tools like Docker, CI/CD pipelines, and AWS
+                deployments
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- TESTIMONIALS -->
-    <section id="testimonials">
+    <!-- <section id="testimonials">
       <div class="container">
         <div class="sec-header">
           <span class="sec-num">05</span>
@@ -1663,7 +1694,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ARTICLES -->
     <section id="articles" style="background: var(--bg3)">
@@ -1738,9 +1769,7 @@
               <!-- <a class="social-btn" href="https://leetcode.com/devopriyanshu"
                 >LeetCode</a
               > -->
-              <a class="social-btn" href="https://priyanshu003.vercel.app"
-                >Portfolio</a
-              >
+              <a class="social-btn" href="https://x.com/priyanshuxptl">X</a>
             </div>
           </div>
           <div>
@@ -1750,7 +1779,7 @@
               <li><a href="#about">About</a></li>
               <li><a href="#portfolio">Projects</a></li>
               <li><a href="#experience">Experience</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
+              <!-- <li><a href="#testimonials">Testimonials</a></li> -->
               <li><a href="#articles">Articles</a></li>
             </ul>
           </div>
@@ -1768,7 +1797,7 @@
               infra? Let's talk.
             </p>
             <a
-              href="mailto:priyanshupatel1902@gmail.com"
+              href="mailto:priyanshupatel2505@gmail.com"
               style="
                 display: block;
                 padding: 14px 20px;
